@@ -1,4 +1,4 @@
-# José Carlos Román Rubio - Personal Web Project
+# José Carlos Román Rubio - Personal Website
 
 A **Laravel-based** web application developed to explore and implement modern PHP development patterns.
 
@@ -8,12 +8,7 @@ A **Laravel-based** web application developed to explore and implement modern PH
 * **ORM:** Eloquent
 * **Styling:** Tailwind CSS
 
-### 📌 Project Status
-This repository is currently **archived**. It remains public as a technical reference for code structure and framework implementation.
-
----
-
-### 📩 Contact
-If you'd like to connect or discuss my projects:
-* **LinkedIn:** [in/romanrubio](https://www.linkedin.com/in/romanrubio/)
-* **GitHub:** [@jcdotnet](https://github.com/jcdotnet)
+### 📌 Project Context and Status
+* **Migration:** This is my former personal website. It was designed as a full-stack application, including a management system and a **REST API** to serve professional data.
+* **History:** The API from this project previously powered my [React-based CV](https://github.com/jcdotnet/react-lab/tree/dev/curriculum).
+* **Status:** This project is currently **archived** and has been migrated to this lab to centralize my PHP-related work. It remains here as a technical reference for code structure and framework implementation.
