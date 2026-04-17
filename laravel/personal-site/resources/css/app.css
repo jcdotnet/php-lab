@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: bold;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@import 'tailwindcss';
+
+@source '../views';
+
+@theme {
+    --color-accent: #0099ff; 
+    --color-facebook: #3b5999;
+    --color-github: #171515;
+    --color-linkedin: #0077b5;
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+body {
+    font-family: "Poppins";
+    @apply text-gray-800 /*"#040404"*/;
+}
+h2 {
+    @apply text-xl md:text-2xl lg:text-3xl font-medium pb-3;
+}
+p {
+    @apply text-base;
+}
+a {
+    @apply text-accent;
+}
+.row {
+    @apply max-w-[1080] m-auto p-4 sm:p-8 lg:p-12;
+}
+.progress svg {
+    @apply size-16 sm:size-20 md:size-24 text-accent;
+}
+
