@@ -1,0 +1,224 @@
+# Copyright (C) 2020 JC
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: JC Social Sharing 1.2.6\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/social-sharing-buttons-and-counters\n"
+"POT-Creation-Date: 2020-03-27 12:35:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/admin-page.php:18
+msgid "Buttons"
+msgstr ""
+
+#: inc/admin-page.php:21
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin-page.php:24
+msgid "Animation"
+msgstr ""
+
+#: inc/admin-page.php:39
+msgid "Social buttons"
+msgstr ""
+
+#: inc/admin-page.php:47
+msgid "Drop below the sharing buttons you want to add"
+msgstr ""
+
+#: inc/admin-page.php:56
+msgid "Twitter username"
+msgstr ""
+
+#: inc/admin-page.php:58
+msgid "username without @"
+msgstr ""
+
+#: inc/admin-page.php:59
+msgid "Enter your username if you want it to be appended to the tweets"
+msgstr ""
+
+#: inc/admin-page.php:69
+msgid "Buttons text "
+msgstr ""
+
+#: inc/admin-page.php:72 inc/admin-page.php:200
+msgid "Yes"
+msgstr ""
+
+#: inc/admin-page.php:73 inc/admin-page.php:201
+msgid "No"
+msgstr ""
+
+#: inc/admin-page.php:74
+msgid ""
+"Display social network names? You can hide them if you don't have enough "
+"room for the buttons"
+msgstr ""
+
+#: inc/admin-page.php:78
+msgid "Always hide the social networks names on mobile screen sizes."
+msgstr ""
+
+#: inc/admin-page.php:86
+msgid "Buttons location"
+msgstr ""
+
+#: inc/admin-page.php:90
+msgid "Before content"
+msgstr ""
+
+#: inc/admin-page.php:91
+msgid "After content"
+msgstr ""
+
+#: inc/admin-page.php:92
+msgid "Both"
+msgstr ""
+
+#: inc/admin-page.php:99
+msgid "Add buttons to"
+msgstr ""
+
+#: inc/admin-page.php:118
+msgid "Sharing text"
+msgstr ""
+
+#: inc/admin-page.php:122
+msgid "Share this!"
+msgstr ""
+
+#: inc/admin-page.php:123
+msgid ""
+"Left the field empty if you don't want to display a text before the sharing "
+"buttons"
+msgstr ""
+
+#: inc/admin-page.php:130
+msgid "Sharing text position"
+msgstr ""
+
+#: inc/admin-page.php:134
+msgid "Left"
+msgstr ""
+
+#: inc/admin-page.php:135
+msgid "Above"
+msgstr ""
+
+#: inc/admin-page.php:141
+msgid "Sharing text weight"
+msgstr ""
+
+#: inc/admin-page.php:165
+msgid "Font Awesome 4 (2017) compatibility"
+msgstr ""
+
+#: inc/admin-page.php:170
+msgid ""
+"Check only if your theme still uses Font Awesome 4, take into account that "
+"some icons (latest ones) might not be rendered."
+msgstr ""
+
+#: inc/admin-page.php:176
+msgid "Do not enqueue Font Awesome"
+msgstr ""
+
+#: inc/admin-page.php:181
+msgid "We strongly recommend that only advanced users check this option."
+msgstr ""
+
+#: inc/admin-page.php:198
+msgid "Play animations?"
+msgstr ""
+
+#: inc/admin-page.php:204
+msgid ""
+"Here you can decide whether or not to play animations when hovering over "
+"the sharing buttons."
+msgstr ""
+
+#: inc/admin-page.php:209
+msgid "Animation Style"
+msgstr ""
+
+#: inc/admin-page.php:213
+msgid "Fade"
+msgstr ""
+
+#: inc/admin-page.php:214
+msgid "Slide"
+msgstr ""
+
+#: inc/admin-page.php:215
+msgid "Bounce"
+msgstr ""
+
+#: inc/admin-page.php:216
+msgid "Spin"
+msgstr ""
+
+#: inc/admin-page.php:222
+msgid "Animation Duration"
+msgstr ""
+
+#: inc/admin-page.php:226
+msgid "300 miliseconds"
+msgstr ""
+
+#: inc/admin-page.php:227
+msgid "500 miliseconds"
+msgstr ""
+
+#: inc/admin-page.php:228
+msgid "700 miliseconds"
+msgstr ""
+
+#: inc/admin-page.php:229
+msgid "1 second"
+msgstr ""
+
+#: inc/admin-page.php:230
+msgid "2 seconds"
+msgstr ""
+
+#: inc/admin-page.php:231
+msgid "3 seconds"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "JC Social Sharing"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A lightweight SEO-friendly plugin that allows you to share your posts and "
+"get more traffic"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "JC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://josecarlosroman.com/"
+msgstr ""
