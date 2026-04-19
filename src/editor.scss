@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-jc-blocks-share-buttons {
+	.jc-share-button {
+		color: #fff;
+		//box-shadow: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		padding: 0.5em 1em;
+		//text-align: center;
+		text-decoration: none;
+		word-break: break-word;
+		//box-sizing: border-box;
+		> .jc-share-icon {
+			line-height: 0;
+		}
+	}
+}

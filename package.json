@@ -1,0 +1,23 @@
+{
+	"name": "simple-share-buttons",
+	"version": "1.0.0",
+	"description": "This plugin adds a block to easily create beautiful and good-looking share buttons.",
+	"author": "jcrr",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^24.0.0"
+	},
+	"dependencies": {
+		"classnames": "^2.3.1"
+	}
+}

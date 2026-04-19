@@ -1,0 +1,96 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "jc-blocks/share-button",
+	"title": "Share Button",
+	"category": "widgets",
+    "parent": [ "jc-blocks/share-buttons" ],
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"attributes": {
+		"service": {
+			"type": "string"
+		},
+		"text": {
+			"type": "string",
+			"source": "html",
+			"selector": ".jc-share-button-text"
+		},
+		"placeholder": {
+			"type": "string"
+		},
+		"brandColor": {
+			"type": "string"
+		},
+		"iconsFontSize": {
+			"type": "string"
+		},
+		"iconFontSize": {
+			"type": "string"
+		},
+		"iconColor": {
+			"type": "string",
+			"default": "#FFF"
+		},
+		"linkTarget": {
+			"type": "boolean"
+		},
+		"rel": {
+			"type": "string"
+		},
+		"shareUrl": {
+			"type": "string"
+		},
+		"username": {
+			"type": "string"
+		}
+	},
+	"usesContext": [
+		"jc-blocks/share-buttons/buttonsLinkTarget",
+		"jc-blocks/share-buttons/buttonsRel",
+		"jc-blocks/share-buttons/iconsFontSize"
+	],
+	"supports": {
+		"reusable": false,
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"html": false,
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		},
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"padding": [ "horizontal", "vertical" ],
+			"__experimentalDefaultControls": {
+				"padding": true
+			}
+		},
+		"__experimentalBorder": {
+			"radius": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"radius": true
+			}
+		}
+	},
+	"textdomain": "jc-share-buttons",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
