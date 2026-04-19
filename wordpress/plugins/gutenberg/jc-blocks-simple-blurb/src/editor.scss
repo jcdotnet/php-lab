@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-jc-blocks-simple-blurb {
+	// border: 1px dotted #f00;
+	[data-type="jc-blocks/blurb-content"] {
+		&.alignleft {
+			float: none;
+			margin-right:auto!important;
+			margin-left:0!important;
+		}
+		&.alignright {
+			float:none;
+			margin-right:0!important;
+			margin-left:auto!important;
+		}
+		.jc-blurb-image {
+			position:relative;
+			
+			&.is-image-loading img {
+				opacity: 0.5;
+			}
+			.components-spinner {
+				position: absolute;
+				top:0;
+				left:0;
+			}
+		}
+	}
+}

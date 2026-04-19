@@ -1,0 +1,20 @@
+.jc-share-button {
+    background-color: #32373c;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    &:hover { opacity:0.9; }
+    .jc-share-link {
+        color: #fff;
+        //box-shadow: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        //text-align: center;
+        text-decoration: none;
+        word-break: break-word;
+        //box-sizing: border-box;
+        > .jc-share-icon {
+            line-height: 0;
+        }
+    }
+}
